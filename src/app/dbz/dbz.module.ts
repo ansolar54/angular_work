@@ -8,8 +8,11 @@ import { MainPageComponent } from './main-page/main-page.component';
   declarations: [
     MainPageComponent
   ],
+  exports: [
+    MainPageComponent
+  ],
   imports: [
     CommonModule
   ]
 })
-export class DbzModule { }
+export class DbzModule {}
